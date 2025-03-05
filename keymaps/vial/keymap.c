@@ -154,7 +154,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 
 void keyboard_post_init_user(void) {
     rgb_matrix_sethsv(HSV_CYAN);
-    rgb_matrix_mode(RGB_MATRIX_SOLID_MULTISPLASH);
+    rgb_matrix_mode(RGB_MATRIX_BREATHING);
 }
 
 void animation(void) {

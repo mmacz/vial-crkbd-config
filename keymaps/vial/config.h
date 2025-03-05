@@ -28,6 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TERM 180
 #define USB_MAX_POWER_CONSUMPTION 500
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 128
+#define RGB_MATRIX_TYPING_HEATMAP_DECREASE_DELAY_MS 50
 
 #define USE_SERIAL_PD2
 #define SPLIT_WPM_ENABLE
@@ -52,6 +53,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENABLE_RGB_MATRIX_STARLIGHT
 #define ENABLE_RGB_MATRIX_STARLIGHT_DUAL_HUE
 #define ENABLE_RGB_MATRIX_STARLIGHT_DUAL_SAT
+#define ENABLE_RGB_MATRIX_TYPING_HEATMAP
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 
